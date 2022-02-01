@@ -1,0 +1,49 @@
+html>
+    <head>
+<title>
+    Random Quote Generator 
+</title>
+<script src="JS/script.js"></script>
+<style>
+    #tableMain{
+        width: 60%;
+        margin: 0px auto;
+        background-color: lightskyblue;
+    }
+    #quote-box{
+        border: 1px solid;
+        padding: 20px;
+    }
+    .source{
+        /* apply css */
+    }
+    .citation{
+        /* apply css */
+    }
+    .year{
+        /* apply css */
+    }
+</style>
+</head>
+<body onload="printQuote()">
+    <div>
+        <table id="tableMain" >
+            <tr>
+                <td style="width: 75%;">
+                <p><u>Random Quotes</u></p>
+                </td>
+                <td>
+                    <button onclick="printQuote()">Next Quote</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+<div id="quote-box"></div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</body>
+
+</html>
